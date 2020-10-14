@@ -94,65 +94,36 @@
             </p>
         </div>
        <style>
-body {
-  margin: 0;
-  font-family: "Lato", sans-serif;
+sidebar{
+    max-width: 276px;
+    padding-left: 6px;
+    padding-right: 6px
+    padding-top: 21px;
+    float: left;
+    font-size: 11px;
+    line-height: 18px;
 }
 
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
- 
-.sidebar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: right;}
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+sidebar h1{
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 18px;
+    float:left;
 }
 </style>
-    <div class="sidebar">
- <h2>Responsive Sidebar Example</h2>
-  <p>This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.</p>
-</div>
+   <div id="sidebar">
+        <div class="card">
+            <div class="title">
+                <h1>Browser Wars</h1>
+            </div>
+            <div class="image">
+                <img src="images/netscapeSmall.jpg"
+            </div>
+            <div class="body">
+                <ul>
+                    Netscape Navigator circa 1994.
+                </ul>
+            </div>
     </div>
 </div>
 <footer class="page-footer font-small blue">
