@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Domain Name System</title>
+  <title>IP, Packets & Routing</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -39,64 +39,41 @@
 <div class="container">
   <div class="row">
         <div class="col-8">
-          <p class="text-danger"><strong><h1> IP </h1></strong></p>
+          <h1 class="text-danger"> IP Address </h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Purus semper eget duis at tellus at. Mauris in aliquam sem fringilla ut morbi. Mi
-                in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Tincidunt praesent semper feugiat nibh
-                sed pulvinar proin gravida. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.
-                Tristique et egestas quis ipsum. Justo nec ultrices dui sapien eget mi proin sed. Eu sem integer vitae
-                justo. Urna nunc id cursus metus. Viverra justo nec ultrices dui sapien eget mi. Tortor aliquam nulla
-                facilisi cras fermentum odio. Netus et malesuada fames ac turpis. Placerat in egestas erat imperdiet sed
-                euismod nisi. Malesuada proin libero nunc consequat interdum varius sit amet. Nulla porttitor massa id
-                neque aliquam vestibulum morbi. At in tellus integer feugiat scelerisque varius. Aliquam nulla facilisi
-                cras fermentum odio eu feugiat pretium nibh. Pellentesque elit ullamcorper dignissim cras tincidunt
-                lobortis feugiat vivamus.
+                An IP address (short for Internet Protocol address) is used to identify computers on the Internet. It works like a return address would on a piece of mail. Examples: 192.168.1.1 (in IPv4) or 2400:cb00:2048:1::c629:d7a2 (in IPv6). 
+            </p>
+           <h1 class="text-danger"> Packets </h1>
+            <p>
+               A packet is a small amount of data sent over a network, such as a LAN or the Internet. Similar to a real-life package, each packet includes a source and destination as well as the content (or data) being transferred. When the packets reach their destination, they are reassembled into a single file or other contiguous block of data.
+
+            </p>
+           <h1 class="text-danger"> Routing </h1>
+            <p>
+                Network routing is the process of selecting a path across one or more networks. The principles of routing can apply to any type of network, from telephone networks to public transportation. In packet-switching networks, such as the Internet, routing selects the paths for Internet Protocol (IP) packets to travel from their origin to their destination. These Internet routing decisions are made by specialized pieces of network hardware called routers.
+Routers work in the following way: when a router receives a packet, it reads the headers* of the packet to see its intended destination, like the way a train conductor may check a passenger's tickets to determine which train they should go on. It then determines where to route the packet based on information in its routing tables.
+
+            </p>
+            <h1 class="text-danger"> Why do we use it </h1>
+            <p>
+                When you put a website on the Internet you have a number of options when it comes to hosting. Most people don’t go through the expense or the hassle of setting up their own server and effectively becoming their own web host, so their other options would be to use a dedicated server or shared web hosting.
             </p>
             <p>
-                Eget aliquet nibh praesent tristique. A cras semper auctor neque vitae tempus quam pellentesque nec.
-                Magna ac placerat vestibulum lectus. Egestas sed tempus urna et pharetra. Sed arcu non odio euismod
-                lacinia at quis. Dignissim convallis aenean et tortor at risus. Porta nibh venenatis cras sed felis eget
-                velit aliquet sagittis. Odio ut sem nulla pharetra diam sit amet nisl. Amet volutpat consequat mauris
-                nunc. Ullamcorper sit amet risus nullam eget. Pulvinar mattis nunc sed blandit libero volutpat sed cras
-                ornare. Suspendisse faucibus interdum posuere lorem. Egestas egestas fringilla phasellus faucibus
-                scelerisque eleifend donec pretium. Orci porta non pulvinar neque laoreet suspendisse interdum
-                consectetur libero.
+                With shared web hosting there may be hundreds or even thousands of websites on the same server. With that many websites on one server, all of those websites will often share one IP address. There are some inherent dangers when your website is sharing an IP address with hundreds of other websites. Sometimes people do shady things on the Internet and if you are sharing an IP address with a website that is blocked or blacklisted, your site may suffer as well. A unique IP address offers a layer of protection and greater security and reliability.
             </p>
             <p>
-                Sed pulvinar proin gravida hendrerit lectus. Quis enim lobortis scelerisque fermentum dui faucibus in.
-                Suscipit tellus mauris a diam maecenas sed enim ut sem. Tellus integer feugiat scelerisque varius.
-                Sapien nec sagittis aliquam malesuada. Sagittis eu volutpat odio facilisis mauris. Viverra nibh cras
-                pulvinar mattis nunc sed. Aenean pharetra magna ac placerat vestibulum lectus. Imperdiet proin fermentum
-                leo vel orci porta non pulvinar. Sodales neque sodales ut etiam sit amet nisl purus. Lorem donec massa
-                sapien faucibus et molestie ac feugiat. Vel risus commodo viverra maecenas accumsan lacus. Ornare quam
-                viverra orci sagittis eu volutpat odio. Eros in cursus turpis massa tincidunt. Sed sed risus pretium
-                quam vulputate dignissim suspendisse in est. Dolor magna eget est lorem ipsum dolor sit amet
-                consectetur.
+                Packets are intended to transfer data reliably and efficiently. Instead of transferring a large file as a single block of data, sending smaller packets helps ensure each section is transmitted successfully. if a data transfer encounters network congestion due to multiple simultaneous transfers, the remaining packets can be rerouted through a less congested path.
+
             </p>
             <p>
-                Cursus sit amet dictum sit amet justo donec enim diam. Nec dui nunc mattis enim ut. Nulla aliquet enim
-                tortor at auctor urna. Nibh nisl condimentum id venenatis. Ullamcorper sit amet risus nullam eget felis.
-                Non arcu risus quis varius quam quisque id. Accumsan sit amet nulla facilisi morbi. Nunc lobortis mattis
-                aliquam faucibus purus in massa. Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar.
-                Mauris vitae ultricies leo integer malesuada nunc. Fringilla urna porttitor rhoncus dolor purus. Ligula
-                ullamcorper malesuada proin libero nunc. Sagittis eu volutpat odio facilisis. Nullam vehicula ipsum a
-                arcu cursus vitae congue mauris. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+              Routing is the hub around which all of IP connectivity revolves. At the simplest level, routing establishes basic internetwork communications, implements an addressing structure that uniquely identifies each device, and organizes individual devices into a hierarchical network structure.The router has become the primary control point in the increasingly complex network environment, holding responsibility for service quality and security, monitoring and efficiency, and other attributes that allow networks to add value. If you control the routers, you control the network.
+
             </p>
-            <p>
-                Urna molestie at elementum eu facilisis sed odio morbi quis. Congue quisque egestas diam in arcu cursus
-                euismod quis. Duis at consectetur lorem donec. Nisl tincidunt eget nullam non nisi. Blandit volutpat
-                maecenas volutpat blandit aliquam etiam erat velit scelerisque. Eget nulla facilisi etiam dignissim
-                diam. Lorem donec massa sapien faucibus et molestie ac feugiat. Semper risus in hendrerit gravida rutrum
-                quisque. Cras adipiscing enim eu turpis egestas pretium aenean. Velit laoreet id donec ultrices
-                tincidunt. Egestas erat imperdiet sed euismod nisi porta. Ac feugiat sed lectus vestibulum. Proin
-                fermentum leo vel orci porta non pulvinar. Faucibus scelerisque eleifend donec pretium vulputate sapien
-                nec sagittis aliquam.
-            </p>
+          
         </div>
        <style>
 sidebar{
-    max-width: 276px;
+    max-width: 500px;
     padding-left: 6px;
     padding-right: 6px
     padding-top: 21px;
@@ -104,8 +81,21 @@ sidebar{
     font-size: 11px;
     line-height: 18px;
 }
+sidebar h1{
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 18px;
+    float:left;
 
-
+}
+.card{
+    border:1px goldenrod;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    float:left;
+}
 </style>
    <div id="sidebar">
         <div class="card">
@@ -113,11 +103,11 @@ sidebar{
                 <h1>IP Packets and Routing</h1>
             </div>
             <div class="image">
-                <img src="images/netscapeSmall.jpg"
+                <img src="images/ipaddresssmall.jpg"
             </div>
             <div class="body">
                 <ul>
-                    
+                   An example of IP Address
                 </ul>
             </div>
     </div>
